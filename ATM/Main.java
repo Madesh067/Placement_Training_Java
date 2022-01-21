@@ -1,4 +1,3 @@
-package com.internshala.javaapp;
 
 
 import java.util.*;
