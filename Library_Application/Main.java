@@ -76,7 +76,7 @@ public class Main {
     public static Books addbook(ArrayList<Books> x) {
         Books b = new Books();
         System.out.println("Enter book name : ");
-        b.name = sc.nextLine();
+        b.name = sc.next();
         System.out.println("Enter book ISBN number : ");
         int ISBN = sc.nextInt();
         Boolean is = true;
