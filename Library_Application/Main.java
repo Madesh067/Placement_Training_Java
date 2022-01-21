@@ -1,4 +1,3 @@
-package com.internshala.javaapp;
 import java.time.temporal.ChronoUnit;
 import java.time.LocalTime;
 import java.util.*;
