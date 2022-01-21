@@ -8,6 +8,7 @@ class UserAccount{
     String name;
     int bal;
     ArrayList<String> tr = new ArrayList<>();
+//.........................................................................................................................................    
     public static ArrayList<String> withdraw(int a,int[] b){
         LocalDateTime myDateObj = LocalDateTime.now();
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
@@ -70,6 +71,7 @@ class UserAccount{
             return ans;
         }
     }
+//.............................................................................................................................................    
     public static ArrayList<String> deposit(int a){
         LocalDateTime myDateObj = LocalDateTime.now();
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
@@ -112,6 +114,7 @@ class UserAccount{
             return ans;
         }
     }
+//..............................................................................................................................................    
     public static ArrayList<String> AmountTransfer(ArrayList<UserAccount> x ,int from,int to){
         LocalDateTime myDateObj = LocalDateTime.now();
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
@@ -134,9 +137,11 @@ class UserAccount{
     }
 
 }
+//....................................................................................................................................
 class Admin{
     String name;
     String pin;
+//.....................................................................................................................................    
     public static int[] deposit(){
         int[] ans = new int[5];
         Scanner sc = new Scanner(System.in);
@@ -169,6 +174,7 @@ class Admin{
         }
     }
 }
+//.........................................................................................................................
 class Main{
     public static String changepin(String x){
         Scanner sc = new Scanner(System.in);
@@ -194,6 +200,7 @@ class Main{
         }
 
     }
+//......................................................................................................................................    
     public static ArrayList<Integer> valid_user(ArrayList<UserAccount> x ){
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> ans = new ArrayList<>();
@@ -214,6 +221,7 @@ class Main{
             return ans;
         }
     }
+//.........................................................................................................................................    
     public static ArrayList<Integer> valid_admin(ArrayList<Admin> x ){
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> ans = new ArrayList<>();
@@ -234,13 +242,15 @@ class Main{
             return ans;
         }
     }
+//...........................................................................................................................................    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LocalDateTime myDateObj = LocalDateTime.now();
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDate = myDateObj.format(myFormatObj);
-        UserAccount a2 = new UserAccount();
+//......................................................................................................................................................        
         UserAccount a1 = new UserAccount();
+        UserAccount a2 = new UserAccount();
         UserAccount a3 = new UserAccount();
         ArrayList<UserAccount> users = new ArrayList<>();
         ArrayList<Admin> admins = new ArrayList<>();
@@ -270,6 +280,7 @@ class Main{
         admins.add(b1);
         admins.add(b2);
         admins.add(b3);
+//........................................................................................................................................................        
         Boolean whole_exit = false;
         while(!whole_exit){
             System.out.println("Enter Your Choice : ");
