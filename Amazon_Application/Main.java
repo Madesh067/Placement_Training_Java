@@ -232,16 +232,16 @@ class Main {
         Admin a2 = new Admin();
         ArrayList<Admin> admin = new ArrayList<>();
         a1.adminname = "admin1";
-        a1.adminpin = "a111";
+        a1.adminpin = "1111";
         a2.adminname = "admin2";
-        a2.adminpin = "a222";
+        a2.adminpin = "2222";
         admin.add(a1);
         admin.add(a2);
 
         Merchant m1 = new Merchant();
         ArrayList<Merchant> merchant_list = new ArrayList<>();
         m1.merchantname = "apple";
-        m1.merchantpin = "m111";
+        m1.merchantpin = "1111";
         m1.status = true;
         HashMap<String, String> x = new HashMap<>();
         x.put("name", "iphone");
@@ -262,7 +262,7 @@ class Main {
 
         User u1 = new User();
         u1.username = "user1";
-        u1.userpin = "u111";
+        u1.userpin = "1111";
         ArrayList<User> user_list = new ArrayList<>();
         user_list.add(u1);
 
