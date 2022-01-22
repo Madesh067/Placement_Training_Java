@@ -269,9 +269,9 @@ class Main{
         a3.name = "user3";
         b1.pin = "1111";
         b1.name = "admin1";
-        b2.pin = "1112";
+        b2.pin = "2222";
         b2.name = "admin2";
-        b3.pin = "1113";
+        b3.pin = "3333";
         b3.name = "admin3";
         int atmbal = 10000;
         users.add(a1);
