@@ -131,10 +131,10 @@ public class Main {
         ArrayList<User> user_list = new ArrayList<>();
         User u1 = new User();
         User u2 = new User();
-        u1.username = "user1@gmail.com";
-        u1.userpin = "u111";
-        u2.username = "user2@gmail.com";
-        u2.userpin = "u222";
+        u1.username = "user1";
+        u1.userpin = "1111";
+        u2.username = "user2";
+        u2.userpin = "2222";
         user_list.add(u1);
         user_list.add(u2);
 //.............................................................................
@@ -142,10 +142,10 @@ public class Main {
         Admin a = new Admin();
         Admin a1 = new Admin();
         Admin a2 = new Admin();
-        a1.adminname = "admin1@gmail.com";
-        a1.adminpin = "a111";
-        a2.adminname = "admin2@gmail.com";
-        a2.adminpin = "a222";
+        a1.adminname = "admin1";
+        a1.adminpin = "1111";
+        a2.adminname = "admin2";
+        a2.adminpin = "2222";
         admin_list.add(a1);
         admin_list.add(a2);
 //..............................................................................
